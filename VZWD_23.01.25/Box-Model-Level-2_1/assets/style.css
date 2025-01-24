@@ -4,19 +4,15 @@
     box-sizing: border-box;
 }
 h1, h2 {
-    margin: 0vh 10vw;
+    /* margin: 0vh 10vw; */
+    margin: 4rem auto;
+
 } 
 
-ul, ol {
-    margin: 0vh 30vw;
-}
 
-h3 {
-    margin: 5vh 40vw;
-}
-p {
-    margin: 5vh 5vw;
-      
+
+h1, h2, h3, ul, ol, p {
+    margin: 4rem auto;
 }
     
 h1 {
@@ -28,13 +24,14 @@ h1 {
     width: 80vw;
 }
 
-p::first-letter {
+p:hover:first-letter {
     font-size: 200%;
 }
 p {
     color:blueviolet;
     border: solid orange;
     padding: 1vh 1vw;
+    width: 90vw;
 }
 
 h2 {
@@ -45,8 +42,9 @@ h2 {
 }
 
 h3 {
-    border: 0.3rem solid rgb(49, 153, 8); 
-    outline: 0.3rem solid rgb(49, 153, 8);
+    /* border: 0.3rem solid rgb(49, 153, 8); 
+    outline: 0.3rem solid rgb(49, 153, 8); */
+    border: 0.5rem double green;
     border-radius: 2rem;
     outline-offset: -1rem;
     padding: 5vh 5vw;
