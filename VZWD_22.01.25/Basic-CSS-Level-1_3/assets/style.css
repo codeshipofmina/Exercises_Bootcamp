@@ -1,0 +1,41 @@
+body {
+    background-color: lightgray;
+}
+
+ul, li {
+    background-color: grey;
+    list-style: none;
+
+}
+
+a {
+    color: orange;
+}
+
+span {
+    color: orangered;
+}
+
+img {
+    size: 400x400px;
+}
+
+.bild1 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.bild2 {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+.bild3 {
+    width: 800px;
+    height: 600px;
+    object-fit: cover;
+}

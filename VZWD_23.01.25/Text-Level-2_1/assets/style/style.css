@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    font-size: 48px;
+    color: wheat;
+    background-color: chocolate;
+    text-shadow: 1px 5px 5px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p:first-of-type {
+    text-indent:80px;
+    word-spacing: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p:nth-of-type(2) {
+    text-indent: 80px;
+    word-spacing: 0px;
+}
+h2 {
+    text-shadow: 1px 2px 5px purple;
+    letter-spacing: 10px;
+    text-indent: 20px;
+}
+
+p:nth-of-type(3) {
+    background-color: aqua;
+    text-indent: 20px;
+    line-height: 30px;
+}
+
+p:nth-of-type(4) {
+    background-color: chartreuse;
+    text-indent: 20px;
+    line-height: 30px;
+}

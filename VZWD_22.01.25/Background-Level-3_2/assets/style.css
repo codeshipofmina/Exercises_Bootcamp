@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.backgrounds {
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+
+.color {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellowgreen;
+}
+
+.image {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../assets/img/bild.jpg);
+}
+
+.gradient {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, green , yellow);}

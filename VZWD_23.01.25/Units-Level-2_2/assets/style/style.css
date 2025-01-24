@@ -1,0 +1,23 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+h1 { 
+    background-color:aqua; opacity: 0.6;
+    text-align: center;
+    width: 35vw%;
+    line-height: 10vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-image: url(../img/berg.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
