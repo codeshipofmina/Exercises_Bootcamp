@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #d3cccc66;
+    font-family: "Roboto",'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+    --color-green: #659D89;
+}
+
+nav {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+nav li {
+    display: inline;
+    margin-left: 3rem;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-green);}
