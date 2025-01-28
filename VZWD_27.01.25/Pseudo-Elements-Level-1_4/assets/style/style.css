@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+article {
+    border: 0.2rem, solid, rgb(232, 172, 31);
+    width: 80vw;
+    margin: 0 auto;
+}
+
+article p::before {
+    background-color: yellow;
+    content: "Info";
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-right: 0.3rem;
+}
+
+article p::after {
+    content: "\2665";
+    color: rgb(165, 99, 7);
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+span:hover {
+    color: green;
+    font-weight: bold;
+}
+
+p::selection {
+    color: violet;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
