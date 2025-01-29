@@ -15,6 +15,7 @@ html {
 
 :root {
     --color-green: #659D89;
+    --color-grey: #666666;
 }
 
 nav {
@@ -30,3 +31,22 @@ nav li {
 a {
     text-decoration: none;
     color: var(--color-green);}
+
+article {
+    margin-left: 3rem;
+    font-weight: light;
+    font-size: 50px;
+    width: 45%;
+}
+
+h1 {
+    font-weight:light;
+    font-size: 50px;
+    color: var(--color-green);
+}
+
+aside ul {
+    text-align: right;
+    /* line-height: 20px; */
+    margin-right: 100px;
+}
