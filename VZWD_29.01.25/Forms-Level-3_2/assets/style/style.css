@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green: rgb(19, 40, 42);
+    --green2: rgb(40, 182, 109);
+}
+
+fieldset {
+    background-color: var(--green);
+    width: 300px;
+    padding: 10px;
+}
+
+form {
+    width: 300px;
+    color: white;
+}
+
+input {
+    width: 300px;
+    background-color: var(--green);
+    line-height: 40px;
+
+}
+
+.register input {
+    width: 49.3%;
+}
+
+.button-activated {
+    width: 49%;
+    background-color: var(--green2);
+    color: white;
+
+}
+
+.button-not-activated {
+    width: 49%;
+    background-color: var(--green);
+    color: white;
+
+}
+
+.forgot {
+    text-align: right;
+    color: green;
+}
+
+.forgot a {
+    color: green;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+div {
+    margin: 20px 0px;
+}
+
+.button {
+    background-color: var(--green2);
+    color: white;
+    font-weight: bold;
+}
