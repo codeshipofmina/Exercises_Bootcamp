@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+    background-image: url(../img/bailey-zindel-NRQV-hBF10M-unsplash.jpg);
+    /* max-width: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-bar {
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    font-size: clamp(0.5rem, 1vw, 2rem);
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1vw;
+}
+
+.nav-links {
+    /* justify-content: flex-end; */
+}
